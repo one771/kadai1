@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
                 count++;
 
-                if(count == 10) {
+                if(count == 15) {
                     //ボタンの実行回数
                     tv.setVisibility(View.VISIBLE);
                 }
