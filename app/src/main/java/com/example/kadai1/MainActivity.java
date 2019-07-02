@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                     tv.setVisibility(View.INVISIBLE);
                 }
 
+                for(int c = 0; c < 20; c++ ) {
+
+                }
             }
         });
     }
