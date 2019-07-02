@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
         // ボタンを取得　
         button.setOnClickListener(new View.OnClickListener() {
          // クリック時にメッセージを表示
-            private int a = 0;
+            private int count = 0;
 
 
 
             @Override
             public void onClick(View v) {
 
-                a++;
+                count++;
 
-                if(a == 15) {
+                if(count == 15) {
                     //ボタンの実行回数
                     tv.setVisibility(View.VISIBLE);
                 }
